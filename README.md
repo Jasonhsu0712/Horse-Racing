@@ -149,3 +149,8 @@ Warning: Return value of low-level calls not used.
     |
 111 |                 payable(playerList[second]).call{value: secondPrize}("");
     |                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Warning: Return value of low-level calls not used.
+   --> Horse Racing.sol:115:17:
+    |
+115 |                 payable(playerList[third]).call{value: thirdPrize}("");
+    |                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
