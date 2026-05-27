@@ -139,3 +139,8 @@ Warning: Unused local variable.
     |
 109 |                 (bool success, ) = payable(playerList[second]).call{value: secondPrize}("");
     |                  ^^^^^^^^^^^^
+Warning: Unused local variable.
+   --> Horse Racing.sol:112:18:
+    |
+112 |                 (bool success, ) = payable(playerList[third]).call{value: thirdPrize}("");
+    |                  ^^^^^^^^^^^^
