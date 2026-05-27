@@ -134,3 +134,8 @@ contract BaseHorseRacing is ERC721, Ownable {
         return prizePool;
     }
 }
+Warning: Unused local variable.
+   --> Horse Racing.sol:109:18:
+    |
+109 |                 (bool success, ) = payable(playerList[second]).call{value: secondPrize}("");
+    |                  ^^^^^^^^^^^^
